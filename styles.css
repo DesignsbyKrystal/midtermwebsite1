@@ -1,0 +1,134 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+head{
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+header{
+  width: 100%;
+  text-align: center; /* Center the text */
+  display: block;
+  color: white;
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-weight: 100px;
+  background-color: pink;
+
+}
+/* Body and layout styles */
+body {
+  background: #fff;
+  font-family: sans-serif;
+  margin-top: 7%;
+}
+
+/* Navigation styles */
+nav {
+  background: #fff;
+  position: fixed;
+  color: gray;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0 2em;
+  border-bottom: 1px solid gray;
+  margin: 0 2px;
+  }
+
+nav img {
+  width: 20%;
+  float: left;
+  margin: 0 1px;
+}
+
+nav ul {
+  float: left;
+  margin-top: 1%;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1em;
+  padding-left: 30px;
+  color: gray;
+
+}
+
+/* Main container for layout */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px; /* Space for the fixed nav */
+}
+
+/* Left column (images) */
+.left-column {
+  width: 45%;
+}
+
+.left-column img {
+  width: 100%;
+  height: 40%;
+  margin-bottom: 20px; /* Space between images */
+  padding-left: 50px;
+  border-radius: 20px;
+}
+
+/* Right column (paragraphs) */
+.right-column {
+  width: 45%;
+  padding-top: 70px;
+  
+}
+
+.right-column article {
+  margin-bottom: 350px; /* Space between articles */
+  border-radius: 8px;
+  padding: 2em 3em;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: aliceblue;
+}
+
+.right-column h2 {
+  margin-bottom: 20px;
+}
+
+.hero {
+  width: 100%; /* Full width to maintain responsiveness */
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  margin-top: 0; /* Space above the hero image */
+}
+.hero img {
+  width: 70%;
+  height: auto;
+  border-radius: 20px;
+}
+main{
+  padding-bottom: 5em;
+}
+main h1{
+  justify-content: center;
+  display:block;
+  color:#fff;
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+main p{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Footer (if needed) */
+footer {
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+  background-color: pink;
+}
